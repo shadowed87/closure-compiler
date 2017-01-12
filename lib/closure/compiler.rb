@@ -14,8 +14,8 @@ module Closure
 
     DEFAULT_OPTIONS = {
       :warning_level => 'QUIET',
-      :language_in => 'ECMASCRIPT6',
-      :compilation_level => 'ADVANCED_OPTIMIZATIONS'
+      :language_in => 'ECMASCRIPT6'
+ #     :compilation_level => 'ADVANCED_OPTIMIZATIONS'
     }
 
     # When you create a Compiler, pass in the flags and options.
