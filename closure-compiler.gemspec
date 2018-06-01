@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name      = 'closure-compiler'
-  s.version   = Closure::VERSION
+  s.version   = '1.1.14'
   s.date      = '2018-05-31'
   s.license   = 'Apache-2.0'
 
