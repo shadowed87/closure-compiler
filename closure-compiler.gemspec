@@ -1,5 +1,3 @@
-require File.join(File.dirname(__FILE__), 'lib', 'closure-compiler')
-
 Gem::Specification.new do |s|
   s.name      = 'closure-compiler'
   s.version   = Closure::VERSION
