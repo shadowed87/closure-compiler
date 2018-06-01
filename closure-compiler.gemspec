@@ -1,7 +1,9 @@
+require File.join(File.dirname(__FILE__), 'lib', 'closure-compiler')
+
 Gem::Specification.new do |s|
   s.name      = 'closure-compiler'
-  s.version   = '1.1.12'            # Keep version in sync with closure-compiler.rb
-  s.date      = '2015-11-12'
+  s.version   = Closure::VERSION
+  s.date      = '2018-05-31'
   s.license   = 'Apache-2.0'
 
   s.homepage    = "http://github.com/documentcloud/closure-compiler/"
